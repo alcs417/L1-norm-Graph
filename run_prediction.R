@@ -1,5 +1,6 @@
 rm(list=ls(all=T))
 
+# This package is only useful for Linux/Unix/MacOS users #
 library(parallel)
 
 root <- "D:/RProjects/disease_miRNAs"
