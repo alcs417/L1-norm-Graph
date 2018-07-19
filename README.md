@@ -1,4 +1,4 @@
-# L1-norm-Graph
+# L1-norm Graph
 A novel semi-supervised method for miRNA-disease association prediction based on L1-norm graph
 
 Method Description:
@@ -12,3 +12,15 @@ To run our method, simply open the "run_prediction.R" script in R programming en
 
 The format of the output file will be something like:
 
+miRNA disease	score
+hsa-mir-155	Colorectal Neopalsms	0.047717174
+hsa-mir-146a	Colorectal Neopalsms	0.042424729
+hsa-mir-221	Colorectal Neopalsms	0.040243107
+hsa-mir-16-1	Colorectal Neopalsms	0.040058726
+hsa-mir-19a	Colorectal Neopalsms	0.037830119
+hsa-mir-19b-1	Colorectal Neopalsms	0.036203632
+hsa-let-7a-3	Colorectal Neopalsms	0.036152471
+......
+
+Contact: 
+For any questions regarding our work, please feel free to contact us: alcs417@sdnu.edu.cn. 
