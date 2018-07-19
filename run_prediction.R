@@ -22,6 +22,7 @@ miR_info <- LP_norm1(miR_sim_matrix, miR_disease_matrix, con_condition)
 disease_info <- LP_norm1(disease_sim_matrix, t(miR_disease_matrix), con_condition)
 finalQ <- miR_info$Q * factor + t(disease_info$Q) * (1 - factor)
 
+# Users who have R package "parallel" installed can use "mclapply" function instead #
 predRes <- lapply(1:ncol(miR_disease_matrix), function(curCol){
 
 	disease_name <- colnames(miR_disease_matrix)[curCol]
