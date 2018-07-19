@@ -36,7 +36,7 @@ predRes <- lapply(1:ncol(miR_disease_matrix), function(curCol){
 	
 	outFile <- sprintf("%s_predition_results.txt", disease_name)
 	
-	write.table(curRes, file=outFile, quote=F, sep="\t", row.names=F, col.names=F)
+	write.table(curRes, file=outFile, quote=F, sep="\t", row.names=F, col.names=T)
 	
 })
 
