@@ -8,7 +8,7 @@ Method Requirements:
 As our method was developed in R, we require users to have R-3.4.2 (or higher) installed on their operating systems. Users can also install the R package "parallel" to run our script in parallel on Linux/Unix/MacOS.
 
 Usage:
-To run our method, simply open the "run_prediction.R" script in R programming environment or other R IDE tools and press "Run" button. Another option is to run our script using the command line format: Rscript run_prediction.R. Please make sure that both the input data "miR_disease.RData" as well as the R script "L1_graph.R" are under the same directory as that of "run_prediction.R". The output prediciton files will also be under this directory. Moreover, please remember to change the working directory to your own local directory properly by setting the "root" variable in the "run_prediciton.R" script. 
+To run our method, simply open the "run_prediction.R" script in R programming environment or other R IDE tools (e.g. RStudio) and press "Run" button. Another option is to run our script using the command line format: Rscript run_prediction.R. Please make sure that both the input data "miR_disease.RData" as well as the R script "L1_graph.R" are under the same directory as that of "run_prediction.R". The output prediciton files will also be under this directory. Besides, please change the working directory to your own local directory by setting the "root" variable in the "run_prediciton.R" script properly. 
 
 The format of the output file will be something like:
 
