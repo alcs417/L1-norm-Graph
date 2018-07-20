@@ -3,6 +3,7 @@ rm(list=ls(all=T))
 # This package is only useful for Linux/Unix/MacOS users #
 library(parallel)
 
+# Please change the working directory to your local path where this file is stored #
 root <- "D:/RProjects/disease_miRNAs"
 
 setwd(root)
